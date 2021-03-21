@@ -83,6 +83,7 @@ footer {
     text-align: center;
     color: #ffffff;
     margin: 20px 0;
+    background-color: #767671;
 }
 
 footer small {
@@ -97,6 +98,7 @@ footer small {
     color: #ffffff;
     font-family: 'Bitter', serif;
     margin-bottom: 50px;
+    border: none;
 }
 
 #index .content {
@@ -132,6 +134,7 @@ footer small {
     width: 960px;
     margin: 150px auto 0 auto;
     text-align: left;
+    background-color: transparent;
 }
 
 #index {
@@ -141,6 +144,14 @@ footer small {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#index #wrap {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* about.html */
 
 #about {
     background-image: url(../images/bg-about.jpg);
@@ -200,4 +211,22 @@ h2 {
 
 section {
     margin-bottom: 35px;
+}
+
+#about .career th {
+    width: 240px;
+    background-color: #f0f0f0;
+    padding: 12px 0;
+    border: 1px solid #cccccc;
+}
+
+#about .career td {
+    width: 660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid #cccccc;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
 }
